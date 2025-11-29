@@ -32,3 +32,11 @@ console.log('Nova primeira cidade:', cidades[0]);
 
 cidades.push('Cuiabá');
 console.log('Última cidade:', cidades[cidades.length - 1]);
+
+//Resolução Exercicio 2
+
+const nomes = ['Eduardo', 'Maria', 'José', 'Fernanda', 'Pedro'];
+
+for (let i = 0; i < nomes.length; i++) {
+    console.log('Nome: ', nomes[i]);
+}
