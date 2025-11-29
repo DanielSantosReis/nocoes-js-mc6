@@ -17,3 +17,18 @@
 // const nomes = ['Eduardo', 'Maria', 'José', 'Fernanda', 'Pedro']
 
 // Percorra a lista de nomes e imprima um a um
+
+//********************************||***************************************||****************//
+
+//Resolução Exercicio 1
+
+const cidades = ['Rio de Janeiro', 'Belo Horizonte', 'São Paulo', 'Porto Alegre', 'Florianópolis']
+
+console.log('Primeira cidade:', cidades[0]);
+console.log('Segunda cidade:', cidades[1]);
+
+cidades.unshift('Bahia');
+console.log('Nova primeira cidade:', cidades[0]);
+
+cidades.push('Cuiabá');
+console.log('Última cidade:', cidades[cidades.length - 1]);
